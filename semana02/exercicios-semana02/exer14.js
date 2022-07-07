@@ -1,4 +1,4 @@
-// 14 -Construa um objeto chamado myUser que possuias propriedades: 
+// 14 -Construa um objeto chamado myUser que possui as propriedades: 
 // name, age e email, coloque valores de sua escolha nessas propriedades 
 // e imprima o objeto no console.
 

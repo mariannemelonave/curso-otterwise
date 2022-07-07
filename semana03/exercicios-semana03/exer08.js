@@ -3,8 +3,8 @@
 //  monte um programa que também consegue retornar qual o maior valor e qual a sua posição
 
 
-let array = [1,2,3,4,-5,6,7,8,9,10]
-let menor = 0
+let array = [1,2,3,4,5,6,7,8,9,10]
+let menor = 0 // 
 let posicaoMin = 0
 
 const value = (menor) => {

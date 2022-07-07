@@ -1,12 +1,12 @@
 //Métodos Específicos de Array
-// forEach (Guilherme) (Diego) (Luís)
-// map (Guilherme) (Luís)
-// filter (Guilherme) (Luís)
-// find (Guilherme) (Luís)
-// every (Luís)
-// some (Luís)
-// sort (Guilherme) (Luís)
-// reduce (Guilherme) (Luís)
+// forEach 
+// map 
+// filter 
+// find 
+// every 
+// some 
+// sort 
+// reduce 
 
 let names = [
   "Barros",
@@ -23,4 +23,4 @@ let value = names.forEach((element, index, arrayOriginal) => {
   names[index] = "X";
 });
 console.log(names);
-console.log(value); //forEach sempre retorna undefined.
+//console.log(value); //forEach sempre retorna undefined.

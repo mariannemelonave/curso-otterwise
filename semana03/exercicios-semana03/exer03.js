@@ -3,13 +3,13 @@
 let arrayNames = ["Julie", "Tamara", "Renata", "Leticia", "Fernanda", "Carol"]
 
 const names = (array) => {
-   let namesLine
+   let namesLine = ""
    
    for(let i=0; i<array.length; i++){
-    if(array[array.length]){
+    if( i == array.length - 1){
         namesLine += array[i]
     } else {
-        namesLine += array[i] + " , "
+        namesLine += array[i] + ", "
     }
    }
 

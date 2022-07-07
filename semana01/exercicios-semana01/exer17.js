@@ -5,7 +5,7 @@
 
 
 function jogo (horaInicio, horaFinal) {
-  if()
+  if(){
     let duracao = (horaFinal-horaInicio)
       console.log("O jogo começará as " + horaInicio + "h e terminará as " + horaFinal + "h. E terá a duração de " + duracao + "h.")
 }

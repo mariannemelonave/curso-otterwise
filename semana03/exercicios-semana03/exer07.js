@@ -8,10 +8,9 @@ let media = 0
 
 const notes = (media) => {
     for(i=0; i<array.length; i++){
-        sum += array[i]
-        media = sum/array.length
+        sum += array[i]   
     }
-    
+    media = sum/array.length
     console.log(media)
 }
 

@@ -23,6 +23,6 @@ const newProducts = products.reduce(
     acc[product.category] = acc[product.category] + 1;
     return acc;
   },
-  { fruta: 0, verdura: 0, legume: 0 }
+  { fruta: 0, verdura: 0, legume: 0, vegetal: 0 }
 );
-// console.log(newProducts);
+ console.log(newProducts);

@@ -4,10 +4,12 @@
 
 
 let array = [1, 8, 6, 13, 7, 9, 15, 22, 356, 4, 3]
-let result = " " 
-let value = 10
 
-const numbers = (multi) => {
+let value = 20  
+
+const numbers = (multi, value) => {
+let result = " " 
+  
     for(i=0; i < array.length; i++){
         multi = array[i]*value
         result += multi + ", "
@@ -15,5 +17,5 @@ const numbers = (multi) => {
     console.log(result)
 }
 
-numbers(array)
+numbers(array, value)
 

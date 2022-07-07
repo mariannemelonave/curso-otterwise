@@ -1,6 +1,7 @@
 
 const proposta = (proventosPf, proventosPj) => {
-    proventosPf += (proventosPf + 0.08 ) + 700
+    proventosPf = (proventosPf + (proventosPf * 0.08) + 700)*12 + (proventosPf + proventosPf/3) + (proventosPf) 
+    proventosPj = (proventosPj)*12
 
     if(proventosPj > proventosPf){
         console.log("A melhor proposta é PJ")
@@ -9,4 +10,4 @@ const proposta = (proventosPf, proventosPj) => {
     }
 }
 
-proposta(3000, 4500)
+proposta(3000, 5500)
