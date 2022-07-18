@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+a, button {
+    cursor: pointer
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    background-color: darkcyan;
+}
+
+p, ol, ul, a {
+    font-size: 12px;
+}
