@@ -1,0 +1,17 @@
+{
+  "name": "estudo-de-caso",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel ./src/*.html",
+    "build": "parcel build"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}
