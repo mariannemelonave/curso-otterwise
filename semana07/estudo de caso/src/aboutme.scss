@@ -1,0 +1,160 @@
+@import "./styles.scss";
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 93px 16px 0 16px;
+    align-items: center;
+    
+    &-card{
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+        border-radius: 8px;
+        color: white;
+        max-width: 967px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (min-width: 992px) {
+        flex-direction: row;
+        padding-top: 133px;
+        //padding-bottom: 128px;
+        
+        justify-content: space-between;
+      }
+
+        &-image{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            padding-top: 32px;
+            padding-left: 16.5px;
+            padding-right: 15.5px;
+        }
+
+        &-container{
+            @media (min-width: 992px) {
+                max-width: 568px;
+              }
+            &-title{
+                font-weight: 400;
+                font-size: 34px;
+                line-height: 40px;
+                margin: 24px 0;
+                @media (min-width: 992px) {
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 71px;
+                    letter-spacing: -0.5px;
+                    margin-top: 0;
+                    margin-bottom: 24px;
+                }
+            }
+
+            &-description{  
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.44px;
+
+                &-email{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0.44px;
+                    color: $primaryColor
+                }
+            }
+        }
+    }    
+}
+
+.skills{
+    margin-bottom: 64px;
+    @media (min-width: 992px) {
+        margin-top: 128px;
+      }
+    
+    &-title{
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 32px;
+        @media (min-width: 992px) {
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+            letter-spacing: 0.25px;
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+    }
+
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+        padding-left: 15px;
+        gap: 24px;
+        @media (min-width: 992px) {
+            flex-direction: row;
+            padding: 60px 133px 0px 165px;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+
+      &-box{
+        display: flex;
+        flex-direction: column;
+        background-color: $colorRellenos;
+        border-radius: 8px;
+        padding: 16px;
+        @media (min-width: 992px) {
+            padding: 24px 34px 24px 24px;
+            max-width: 364px;
+          }
+        
+            &-img{
+            text-align: left;
+            }
+
+            &-title{
+                color: white;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.15px;
+                text-align: left;
+                margin-top: 10px;
+                margin-bottom: 0;
+                @media (min-width: 992px) {
+                    font-size: 34px;
+                    line-height: 40px;
+                    letter-spacing: 0.25px;
+                  }
+            }
+            &-description{
+                color: white;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.25px;
+                text-align: left;
+                margin-top: 10px;
+                margin-bottom: 0;
+                @media (min-width: 992px) {
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0.44px;
+                  }
+            }
+        }  
+    }
+    
+}
+
