@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["assets/styles.css"],"sourcesContent":["#myForm {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: flex-start;\r\n    gap: 5px;\r\n  }"],"names":[],"version":3,"file":"index.14d3b604.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,8 @@
+No formulário tente sempre utilizar o tipo do elemento que mais se encaixa no valor que ele irá receber, 
+utilize também outros atributos como placeholder para um resultado final mais robusto. O formulário deve 
+conter os seguintes campos:
+●Nome
+●Email
+●Data de Nascimento
+●Linguagem Favorita com as opções JS e Basic
+●Botão de enviar
