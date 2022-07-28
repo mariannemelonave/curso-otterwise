@@ -1,0 +1,108 @@
+.button {
+    border: none;
+    padding: 0 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.button__solid {
+    background-color: #319795;
+    color: white;
+}
+
+.button__solid:hover {
+    background-color: #2c7e7b;
+}
+
+.button__solid:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button__solid:disabled:hover{
+    background-color: #319795;
+}
+
+.button__outlined {
+    background-color: transparent;
+    color: #319795;
+    border: 1px solid currentColor;
+}
+
+.button__outlined:hover {
+    background-color: #caece5;
+}
+
+.button__outlined:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button__outlined:disabled:hover{
+   background-color: transparent;
+}
+
+.button__teal__solid {
+    background: #319795;
+    color: white;
+  }
+  
+  .button__teal__solid:hover {
+    background: #2c7a7b;
+  }
+  
+  .button__teal__outline {
+    color: #2c7a7b;
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+  
+  .button__teal__outline:hover {
+    background: #e6fffa;
+  }
+  
+  .button__teal__outline:hover:disabled {
+    background-color: transparent;
+  }
+
+  .button__blue__solid {
+    background: #3182ce;
+    color: white;
+  }
+  
+  .button__blue__solid:hover {
+    background: #2b6cb0;
+  }
+  
+  .button__blue__outline {
+    color: #2b6cb0;
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+  
+  .button__blue__outline:hover {
+    background-color: #ebf8ff;
+  }
+  
+  .button__pink__solid {
+    background: #d53f8c;
+    color: white;
+  }
+  
+  .button__pink__solid:hover {
+    background: #b83280;
+  }
+  
+  .button__pink__outline {
+    color: #b83280;
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+  
+  .button__pink__outline:hover {
+    background-color: #fff5f7;
+  }
