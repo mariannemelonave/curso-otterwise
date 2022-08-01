@@ -38,4 +38,6 @@ ordemArray(funcionarios, 'idade', 'decrescente')
 ordemArray(funcionarios, 'salario', 'crescente')
 ordemArray(funcionarios, 'salario', 'decrescente')
 
+// pesquisar sobre dicionario em JS
+
         
