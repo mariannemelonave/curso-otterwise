@@ -5,7 +5,11 @@ const negatives = numbers.filter((element) => element < 0)
 const pairs = numbers.filter((element) => element%2 == 0)
 const odds = numbers.filter((element) => element%2 != 0)
 
-console.log(positives)
+
+
+console.log(positives + " A quantidade de numeros positivos é: " + positives.length)
 console.log(negatives)
 console.log(pairs)
 console.log(odds)
+
+console.log(typeof(positives))

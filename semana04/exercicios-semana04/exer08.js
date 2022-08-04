@@ -5,7 +5,8 @@ let names = ["Juliana", "Pedro", "Regina", "João", "Patrícia", "Gabriel", "Car
 const nameFind = "Carla"
 
 const response = names.find((element) => element === nameFind)
-    if (response || response === 0){
+console.log(response)
+    if (response){
         console.log("O nome " + nameFind + " existe no Array")
     } else {
         console.log("O nome " + nameFind + " não existe no Array")

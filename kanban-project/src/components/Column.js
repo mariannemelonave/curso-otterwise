@@ -1,5 +1,6 @@
 import "./Column.css";
 import Task from "./Task";
+
 const Column = ({
   icon,
   title,

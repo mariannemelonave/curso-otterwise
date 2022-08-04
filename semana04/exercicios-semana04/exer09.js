@@ -8,8 +8,6 @@ const compras = [
     { nome: 'Pão Francês', quantidade: 8, valor: 0.63}
     ]
     
-const valorTotalCompras = compras.reduce(getTotal, 0);
-function getTotal(total, item) {
- return total + (item.valor * item.quantidade);
-}
+const valorTotalCompras = compras.reduce((total, item) => total + (item.valor * item.quantidade), 0)
+
 console.log(valorTotalCompras)

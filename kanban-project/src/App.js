@@ -1,8 +1,8 @@
 import "./App.css";
 import Column from "./components/Column";
 import Title from "./components/Title";
-import iconInprogress from "./icons/columnTwo/iconInProgress.png";
-import iconDone from "./icons/columnFour/iconDone.png";
+import iconInProgress from "./icons/columnTwo/iconInProgress.png";
+import iconDone from "./icons/columnFour/iconDone.png"
 import Man from "./icons/columnOne/Man.png";
 import Female from "./icons/columnTwo/Female.png";
 
@@ -37,7 +37,7 @@ function App() {
             <Column
               showIcon={true}
               showTitle={true}
-              icon={<img src={iconInprogress} alt="In Progress" />}
+              icon={<img src={iconInProgress} alt="In Progress" />}
               title="In Progress"
               name="Coffee Break"
               img={<img src={Man} alt="Man"></img>}
