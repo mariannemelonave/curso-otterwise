@@ -1,0 +1,21 @@
+{
+  "name": "exemplo-prisma",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prisma": "^4.2.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "fastify": "^4.5.2"
+  }
+}
