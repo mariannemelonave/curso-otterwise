@@ -15,7 +15,10 @@
     "prisma": "^4.2.1"
   },
   "dependencies": {
+    "@fastify/cors": "^8.1.0",
+    "@fastify/static": "^6.5.0",
     "@prisma/client": "^4.2.1",
-    "fastify": "^4.5.2"
+    "fastify": "^4.5.2",
+    "fastify-multer": "^2.0.3"
   }
 }
