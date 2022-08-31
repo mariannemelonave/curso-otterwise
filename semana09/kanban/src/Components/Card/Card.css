@@ -1,0 +1,89 @@
+.card {
+    background-color: white;
+    width: 280px;
+    height: fit-content;
+    margin-left: 0px;
+    margin: 0px;
+    border-radius: 4px 4px 4px 4px;
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+
+.div__todo {
+   
+    background-color: #59B4D1;
+    border-radius: 4px 4px 4px 4px; 
+    color: white;
+   width: fit-content;
+   padding: 4px;
+   font-weight: 700;
+   font-size: 10px;
+   line-height: 10px;
+
+}
+
+.div__inprogress {
+    background-color: #D0935A;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    width: fit-content;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;   
+}
+
+.div__review {
+    background-color: #945AD1;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    width: fit-content;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+}
+    
+
+.div__done {
+ 
+    background-color: #59D090;
+    border-radius: 4px 4px 4px 4px;
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+        
+}
+
+.img{
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.textcard{
+    margin: 0;
+    width: 260px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px 10px 10px 10px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}

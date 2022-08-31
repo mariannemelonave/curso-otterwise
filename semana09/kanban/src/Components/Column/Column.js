@@ -1,34 +1,38 @@
-import './Column.css'
-import Cards from '../Cards/Cards'
+import "./Column.css"
+import { Fragment } from "react";
+import Card from "../Card/Card";
 
-const data = [
-    { title: 'To Do', img: 'man', label: 'Label', labelColor: 'blue', children: 'Christmas Banners' },
-    { title: 'To Do', img: 'man', label: 'Label', labelColor: 'blue', children: 'Redo Portfolio' },
-    { title: 'Inprogress', img: 'female', label: 'Always', labelColor: 'orange', children: 'Coffee Break' },
-    { title: 'Inprogress', img: 'female', label: 'Webflow', labelColor: 'orange', children: 'Updating Portfolio' },
-    { title: 'Review', img: 'man', label: 'Release', labelColor: 'purple', children: 'Release to Figma Community' },
-    { title: 'Review', img: 'man', label: 'Feedback', labelColor: 'purple', children: 'User Feedback' },
-    { title: 'Review', img: 'man', label: 'Sourcing', labelColor: 'purple', children: 'Background images from humaaans.com' },
-    { title: 'Done', img: 'female', label: 'UI', labelColor: 'green', children: 'Style Guide' },
-    { title: 'Done', img: 'female', label: 'UI', labelColor: 'green', children: 'Component Library' },
-    { title: 'Done', img: 'female', label: 'UI', labelColor: 'green', children: 'Sticker Components' }
-]
+const Column = () => {
 
-const Column = (props) => {
-    const { nameColumn = 'To Do', color = 'blue', img } = props
-    const dataFilter = data.filter(e => e.title === nameColumn)
-    return (
-        <div className={`column ${color}`}>
-            <div className={`border-top border-top__${color}`}></div>
-            <div className='column-title'>
-                <img alt='icon' src={require(`./img/${img}.png`)} />
-                <h2>{nameColumn}</h2>
-            </div>
-            <div className='column-cards'>
-                {dataFilter.map(e => <Cards img={e.img} label={e.label} labelColor={e.labelColor}>{e.children}</Cards >)}
-            </div>
-        </div>
-    )
+<Fragment>
+  <div  className="ticket ticket__todo">
+    <p className="text">To do</p>  
+    <Card image="man" subtitle="Christmas Banners" label="todo" description="Label" />  
+    <Card image="man" subtitle="Redo Portfolio" label="todo" description="Label" />   
+  </div> 
+
+  <div  className="ticket ticket__inprogress">
+    <p className="text">In Progress</p>  
+    <Card image="female" subtitle="Coffe Break" label="inprogress" description="Always" />  
+    <Card image="female" subtitle="Updating Portfolio" label="inprogress" description="Always" />  
+ </div> 
+
+ <div  className="ticket ticket__review">
+    <p className="text">Review</p>  
+    <Card image="man" subtitle="Release To Figma Cummunity" label="review" description="Release" />  
+    <Card image="man" subtitle="User Feedback" label="review" description="Feedback" />  
+    <Card image="man" subtitle="Background images from humaaans.com" label="review" description="Sourcing" />
+ </div> 
+
+ <div  className="ticket ticket__done">
+    <p className="text">Done</p>  
+    <Card image="female" subtitle="Style Guide" label="done" description="UI" />  
+    <Card image="female" subtitle="Component Library" label="done" description="UI" />  
+    <Card image="female" subtitle="Sticker Components" label="done" description="UI" />
+ </div> 
+
+</Fragment>
+
 }
 
 export default Column
